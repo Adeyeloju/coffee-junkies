@@ -1,0 +1,49 @@
+* {
+    background-color: #d7694e;
+}
+
+a:visited {
+    color: #d7694e;
+}
+
+a {
+    text-decoration: none;
+    text-transform: capitalize;
+    background-color: black;
+    color: #d7694e;
+    padding: 10px 10px;
+    margin: 3px;
+    display: block;
+}
+
+a:hover {
+    background-color: bisque;
+    color: rgb(71, 71, 71);
+}
+
+span>input:hover {
+    border-radius: 100%;
+    background-color: rgba(0, 0, 0, 0.714);
+    color: coral;
+}
+
+div>p::first-letter {
+    font-size: 3rem;
+}
+
+h3>strong {
+    display: block;
+}
+
+h1 {
+    text-shadow: 3px 1px 10px #a45c40;
+}
+
+#image {
+    transition: background, 3s;
+}
+
+#image:hover {
+    border-radius: 50%;
+    background-color: coral;
+}
